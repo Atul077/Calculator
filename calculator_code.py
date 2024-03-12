@@ -34,11 +34,11 @@ class Calculator:
         self.b1.place(x=x1,y=y2+60,width=80,height=40)
         self.L3.place(x=x2,y=y2+60,width=150,height=40)
         self.b2.place(x=x1, y=y2 +120, width=80, height=40)
-        self.L4.place(x=x2, y=y2 +120, width=80, height=40)
+        self.L4.place(x=x2, y=y2 +120, width=150, height=40)
         self.b3.place(x=x1,y=y2+180,width=80,height=40)
-        self.L5.place(x=x2,y=y2+180,width=80,height=40)
+        self.L5.place(x=x2,y=y2+180,width=150,height=40)
         self.b4.place(x=x1, y=y2 + 240, width=80, height=40)
-        self.L6.place(x=x2, y=y2 + 240, width=80, height=40)
+        self.L6.place(x=x2, y=y2 + 240, width=150, height=40)
         self.window.mainloop()
 
     def addition(self):
@@ -50,7 +50,7 @@ class Calculator:
         a = float(self.e1.get())
         b = float(self.e2.get())
         c = a-b
-        self.L4.config(text="Addition:-"+str(c))
+        self.L4.config(text="Subtraction:-"+str(c))
     def Product(self):
         a = float(self.e1.get())
         b = float(self.e2.get())
